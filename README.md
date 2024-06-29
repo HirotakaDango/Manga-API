@@ -1,4 +1,4 @@
 # Manga-API
 Simple manga website using Rest API
 
-![brave_screenshot_imagi rf gd](https://github.com/HirotakaDango/Manga-API/assets/104591072/a7336f99-1af6-4c0f-b710-7eadc6ea3b92)
+![世界救ったあとの魔法少女活動は濃厚百合接触必須でした](https://github.com/HirotakaDango/Manga-API/assets/104591072/3027e0b8-3f06-4776-bad3-0abcc2de129d)
