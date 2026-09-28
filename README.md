@@ -1,4 +1,4 @@
-# PHPMusicPost &ndash; Manga Studio
+# PHPMusicPost &ndash; Manga API
 
 <img width="720" height="400" alt="screenshot" src="https://github.com/user-attachments/assets/2c10e9a1-292b-4819-ae76-61e3e79c69ae" />
 
