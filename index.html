@@ -1725,7 +1725,7 @@
 
         <div class="nav-divider"></div>
         <div class="nav-item" onclick="app.showSettingsModal()"><i class="bi bi-gear-fill"></i> <span>Studio Settings</span></div>
-        <a id="link-back-music" href="index.php" class="nav-item" style="color:var(--text-secondary);"><i class="bi bi-arrow-left-circle-fill"></i> <span>Back to PHPMusic</span></a>
+        <a id="link-back-music" href="/" class="nav-item" style="color:var(--text-secondary);"><i class="bi bi-arrow-left-circle-fill"></i> <span>Back to PHPMusic</span></a>
       </aside>
 
       <main class="main-viewport" id="viewport">
@@ -1776,9 +1776,9 @@
           getCleanDisplayUrl(url) {
             if (!url) return '';
             return url.trim()
-              .replace(/\/index\.php\?access=artwork$/i, '')
-              .replace(/\?access=artwork$/i, '')
-              .replace(/\/index\.php$/i, '')
+              .replace(/\/index\.php\?access=(?:artwork|profiletree|public_manga)$/i, '')
+              .replace(/\?access=(?:artwork|profiletree|public_manga)$/i, '')
+              .replace(/\/?index\.php\/?$/i, '')
               .replace(/\/+$/, '');
           }
 
@@ -1916,7 +1916,7 @@
           updateBackLink() {
             const backLink = document.getElementById('link-back-music');
             if (backLink) {
-              backLink.href = this.apiBase ? `${this.apiBase}/` : 'index.php';
+              backLink.href = '/';
             }
           }
 
